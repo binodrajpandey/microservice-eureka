@@ -1,0 +1,10 @@
+server.port: 8000
+spring:
+  h2:
+    console:
+      enabled: true
+  jpa:
+    show-sql: true
+  application:
+    name: forex-service
+eureka.client.serviceUrl.defaultZone: http://localhost:8761/eureka
